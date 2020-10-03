@@ -1,4 +1,4 @@
-from Linekd_List.linked_list import LinkedList
+from Linked_List.linked_list import LinkedList
 
 llist = LinkedList()
 llist.append(1)
