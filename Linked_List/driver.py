@@ -1,4 +1,4 @@
-from Linked_List import linked_list, circular_linked_list
+from Linked_List import linked_list, circular_linked_list, double_linked_list
 
 # llist = linked_list.LinkedList()
 # llist.append(1)
@@ -24,20 +24,29 @@ from Linked_List import linked_list, circular_linked_list
 #
 # print(llist.sum_two_lists(llist2))
 
-cllist = circular_linked_list.CircularLinkedList()
-cllist.append(1)
-cllist.append(2)
-cllist.append(3)
-cllist.append(4)
+# cllist = circular_linked_list.CircularLinkedList()
+# cllist.append(1)
+# cllist.append(2)
+# cllist.append(3)
+# cllist.append(4)
+#
+# llist = linked_list.LinkedList()
+# llist.append(1)
+# llist.append(2)
+# llist.append(3)
+# llist.append(4)
+#
+# print(cllist.is_circular_linked_list(cllist))
+# print(cllist.is_circular_linked_list(llist))
 
-llist = linked_list.LinkedList()
-llist.append(1)
-llist.append(2)
-llist.append(3)
-llist.append(4)
 
-print(cllist.is_circular_linked_list(cllist))
-print(cllist.is_circular_linked_list(llist))
+dllist = double_linked_list.DoublyLinkedList()
+dllist.append(1)
+dllist.append(2)
+dllist.append(3)
+dllist.append(4)
+dllist.append(5)
 
+print(dllist.pairs_with_sum(5))
 
 
